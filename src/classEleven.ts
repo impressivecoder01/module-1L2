@@ -12,7 +12,7 @@ const getDashBoard = (role: UserRole) => {
     }
 }
 
-getDashBoard('guest')
+// getDashBoard('guest')
 getDashBoard('admin')
 
 type Employee = {
