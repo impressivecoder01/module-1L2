@@ -15,3 +15,15 @@ console.log(result)
 
 }
 biyerBoyse(33)
+// const userTheme = undefined;
+// const userTheme = null;
+const userTheme ='Green Theme';
+const selectTheme  = userTheme ?? 'Light theme'
+console.log(selectTheme)
+
+const isAuthenticated = null
+const resultwithTernary = isAuthenticated ? isAuthenticated : 'Guest'
+
+const resultWithNulish = isAuthenticated ?? 'guest'
+
+console.log({resultWithNulish}, {resultwithTernary})
